@@ -29,7 +29,7 @@ set_background('432e2f06bceeb0ed5dbd36bd882284b6.png')
 
 
 st.write("Ini merupakan hasil data yang telah didapatkan dari twitter. Data memiliki topik kamen rider ryuki.")
-df = pd.read_csv(r'C:\Users\kirby\Documents\Collge\SEM3\basis_data\pyton\ok\Ryuki_rev.csv')
+df = pd.read_csv(r'Ryuki_rev.csv')
 df[['text','created_at','context_annotations']]
 
 st.write("Sebelum kita dapat melakukan analisa, kita perlu membersihkan data.Dalam pembersihan data kita perlu menghilangkan bagian yang tidak diperlukan seperti link, emoji, tanda baca, dll. Berikut adalah hasil data yang telah dibersihkan.")
